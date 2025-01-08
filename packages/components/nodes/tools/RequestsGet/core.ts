@@ -19,7 +19,7 @@ export class RequestsGetTool extends Tool {
     name = 'requests_get'
     url = ''
     description = desc
-    maxOutputLength = 2000
+    maxOutputLength = 200000
     headers = {}
 
     constructor(args?: RequestParameters) {
